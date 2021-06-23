@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8E7C3A79-68AA-7AEE-0204-C67B84D821A1" name="Vlasnik">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 10:48:46 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<engineerTo>
+<item key="88CC17EF-7E06-E413-6562-419536466874" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Idv" id="B39E373B-DD9D-4D83-137E-D3D61C3D3D9A">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 10:48:55 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<engineerTo>
+<item key="88CC17EF-7E06-E413-6562-419536466874" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Imev" id="D3F0C2C9-E649-8E9E-CBE1-6ED4819E816C">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 10:49:16 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<engineerTo>
+<item key="88CC17EF-7E06-E413-6562-419536466874" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Przv" id="7189A8B0-8A3C-884E-0723-16FB39FF29F8">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 10:49:30 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<engineerTo>
+<item key="88CC17EF-7E06-E413-6562-419536466874" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Udeo" id="5D51FA4A-0D3B-B18F-E119-217CAAA89677">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 10:49:51 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<engineerTo>
+<item key="88CC17EF-7E06-E413-6562-419536466874" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FEE03E49-85C9-8043-3460-39E23BC99FB7" name="Vlasnik PK">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 10:49:06 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="88CC17EF-7E06-E413-6562-419536466874" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B39E373B-DD9D-4D83-137E-D3D61C3D3D9A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

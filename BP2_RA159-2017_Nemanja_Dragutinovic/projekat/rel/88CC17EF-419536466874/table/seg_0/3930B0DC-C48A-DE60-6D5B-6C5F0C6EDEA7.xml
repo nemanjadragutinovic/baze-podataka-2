@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3930B0DC-C48A-DE60-6D5B-6C5F0C6EDEA7" name="Radnik">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<generatorID>0880077B-0C30-2DA7-A58A-F243DED1A76D</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Idr" id="B8D963BA-E18A-31D0-8CF3-5985EB3B467E">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<generatorID>CAEF1297-E624-0971-2B8F-E91E4DBEE827</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Imer" id="E4F72EF7-AD90-305A-EBF1-10B57ED9F8F5">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<generatorID>B799E575-B4A9-B8C9-CE10-FF13B596DD7C</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Przr" id="01E172F3-BCC6-2690-6D6A-0D3F0839FDA0">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<generatorID>FD0627C2-77F1-FE69-C3F6-E4A2AE728582</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ulgr" id="8D94E103-907B-5A93-6D0E-3BBE6F2A4D80">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<generatorID>BA46240F-4948-B08A-D2A2-DF7EAA989207</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Clan_uprave_Idcu" id="5557EAE0-2B5A-0462-44CB-184FF9ADA38D">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<generatorID>6B84A8C0-233C-D2FE-279E-5E30C5AE1D24</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9F19DB06-992F-B4E9-6F45-03E3046EEE83" referredColumn="31F0CB43-EE7E-8C32-C152-1926E50B548D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FE7B1494-B204-70BE-CB29-8D5560C5A0E9" name="Radnik_PK">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<generatorID>A5761A8E-11EF-D6E9-762A-CA99E7031457</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8D963BA-E18A-31D0-8CF3-5985EB3B467E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7637D34B-ECB0-A6C0-AC24-CF833D49996B" name="Radnik_Clan_uprave_FK">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<generatorID>E3868D30-73DA-4CD5-C9D6-0CC7EEC48516</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5557EAE0-2B5A-0462-44CB-184FF9ADA38D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

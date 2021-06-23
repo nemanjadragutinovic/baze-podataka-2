@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="93B75327-978B-9BB5-7F9C-4E7336F2EC41" name="Trening">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:01:07 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<engineerTo>
+<item key="88CC17EF-7E06-E413-6562-419536466874" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Idtr" id="4B913042-44FC-8DEE-1334-D23C4A2E38CF">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:01:13 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<engineerTo>
+<item key="88CC17EF-7E06-E413-6562-419536466874" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Poctr" id="726BBE3F-790B-F29C-81C7-57F1F0877F51">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:01:32 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<engineerTo>
+<item key="88CC17EF-7E06-E413-6562-419536466874" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Kratr" id="B2189972-3717-F358-A4F6-C66D900566D3">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:01:52 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<engineerTo>
+<item key="88CC17EF-7E06-E413-6562-419536466874" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Idter" id="76EA02AD-FE12-BED0-4BA4-2B5D247B982C">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:08:27 UTC</createdTime>
+<generatorID>3170A3D3-1EE7-5EBA-1B97-A6011C491D07</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<engineerTo>
+<item key="88CC17EF-7E06-E413-6562-419536466874" value="true"/>
+</engineerTo>
+<referedAttribute>22F02543-3836-B300-21D5-C104DE023794</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C02D94D6-EDF2-CDFE-311C-7815607E2D01" name="Trening PK">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:01:31 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<engineerTo>
+<item key="88CC17EF-7E06-E413-6562-419536466874" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4B913042-44FC-8DEE-1334-D23C4A2E38CF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

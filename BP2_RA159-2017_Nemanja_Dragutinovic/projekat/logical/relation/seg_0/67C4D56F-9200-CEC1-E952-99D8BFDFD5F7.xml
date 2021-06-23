@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Formira" directorySegmentName="seg_0" id="67C4D56F-9200-CEC1-E952-99D8BFDFD5F7">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 10:52:24 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<engineerTo>
+<item key="88CC17EF-7E06-E413-6562-419536466874" value="true"/>
+</engineerTo>
+<sourcePk>FEE03E49-85C9-8043-3460-39E23BC99FB7</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8E7C3A79-68AA-7AEE-0204-C67B84D821A1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B93ED10C-4D7E-A11A-DD41-1F3402233814</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

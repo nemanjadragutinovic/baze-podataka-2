@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="651742EC-18B3-C6B4-A3F1-AC331C5633D6" name="Kosarkas">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<generatorID>7A507770-1E6C-48D7-CB41-DEF1DFC088F8</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Idk" id="637F1768-8FC1-53C1-4962-09CEF6241D50">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<generatorID>9D425B4A-051C-5641-1062-888522607F49</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Imek" id="E7DCD1E1-4219-CC4F-9A3F-BA020EA2CDDC">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<generatorID>845FA55B-4F2E-F7C5-D07F-804E8AD814F5</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Przk" id="28837437-C519-8964-3959-4EAE6EFCD7C3">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<generatorID>70100EA5-689F-3687-3B49-578F13CCC6A3</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pol" id="A8177662-DDC7-5B93-5166-3B0EF435BC15">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<generatorID>3FCC8D4D-DE72-BA20-778D-DE928FF14684</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ulgk" id="8A28986C-3AB4-F1CF-C9FD-4C34ACBCDA55">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<generatorID>DB5A0995-E93C-B8EB-61B6-6A6ACD4F4B96</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B72CA1C4-BD5F-0CC1-EE0B-52C4EC223D91" name="Kosarkas_PK">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<generatorID>7E44A30D-6668-B7A9-6B15-FEA72F58969C</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="637F1768-8FC1-53C1-4962-09CEF6241D50"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

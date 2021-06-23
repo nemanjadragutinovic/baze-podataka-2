@@ -1,0 +1,5 @@
+create or replace view angazovanje_trenera(ID_trenera,Ime,Prezime,Broj_igraca) as
+select t.idt,t.imet,t.przt,NVL(count(*), 0)
+from trener t,trenira tr
+where t.idt=tr.idt
+group by t.idt,t.imet,t.przt;

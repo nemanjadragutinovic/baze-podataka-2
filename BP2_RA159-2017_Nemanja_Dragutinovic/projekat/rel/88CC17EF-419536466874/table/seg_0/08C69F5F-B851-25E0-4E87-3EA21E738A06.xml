@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="08C69F5F-B851-25E0-4E87-3EA21E738A06" name="Trenira">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<generatorID>4BB995C0-2EDF-657E-73F1-EDB0B2299278</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Kosarkas_Idk" id="4F410F23-9569-3B4B-B006-A1A2EC5F12C7">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<generatorID>A40BF13B-C8AD-DA2B-D784-7B0E7993EF6A</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A6BF30FD-E8CB-9C47-892E-A895DD710E15" referredColumn="637F1768-8FC1-53C1-4962-09CEF6241D50"/>
+</associations>
+</Column>
+<Column name="Trener_Idt" id="67F991A9-AD64-D5C7-8339-8623CB60F46F">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<generatorID>A104306E-88C2-62CF-75DB-B66A60B0D555</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="66C2E3A3-EFB6-3F84-670C-906B8B8D4CB4" referredColumn="D28F0984-5DE5-B234-9823-FB9BC8A088A3"/>
+</associations>
+</Column>
+<Column name="Trenira_ID" id="75A115A8-9397-0A7D-4A24-8DE28C5A9B28">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4B4A0896-064E-7FEA-6170-008E16E3D941" name="Trenira_PK">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="75A115A8-9397-0A7D-4A24-8DE28C5A9B28"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9F643506-5EF2-6E8E-D441-0C4E0170E0BA" name="Trenira_Trener_FK">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<generatorID>EE53B1AB-7F34-7037-8562-7EDE1B7C54E7</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="67F991A9-AD64-D5C7-8339-8623CB60F46F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="21AD3F67-6CF4-CE6F-7C65-4660E7180728" name="Trenira_Kosarkas_FK">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<generatorID>39B53DD4-A917-1086-288C-76B3B896C2E9</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F410F23-9569-3B4B-B006-A1A2EC5F12C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

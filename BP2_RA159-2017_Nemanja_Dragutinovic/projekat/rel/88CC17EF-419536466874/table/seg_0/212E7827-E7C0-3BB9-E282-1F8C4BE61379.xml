@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="212E7827-E7C0-3BB9-E282-1F8C4BE61379" name="Vlasnik">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<generatorID>8E7C3A79-68AA-7AEE-0204-C67B84D821A1</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Idv" id="4EAA7FDB-13E3-CC86-E9E7-D0133F87E5C8">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<generatorID>B39E373B-DD9D-4D83-137E-D3D61C3D3D9A</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Imev" id="17E07949-0873-1A05-F68F-8CA7E6CB9BE3">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<generatorID>D3F0C2C9-E649-8E9E-CBE1-6ED4819E816C</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Przv" id="F1E6CC0E-6F5C-2E83-4C86-DE70FB0F8343">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<generatorID>7189A8B0-8A3C-884E-0723-16FB39FF29F8</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Udeo" id="CC5C01F9-919A-28A0-8BA7-08CC737D8742">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<generatorID>5D51FA4A-0D3B-B18F-E119-217CAAA89677</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3D92F66F-44FE-A551-B379-B18A2B16E400" name="Vlasnik_PK">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<generatorID>FEE03E49-85C9-8043-3460-39E23BC99FB7</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4EAA7FDB-13E3-CC86-E9E7-D0133F87E5C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

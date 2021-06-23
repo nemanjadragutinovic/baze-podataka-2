@@ -1,0 +1,53 @@
+Insert into VLASNIK (IDV,IMEV,PRZV,UDEO) values (111,'Marko','Markovic',22.5);
+Insert into VLASNIK (IDV,IMEV,PRZV,UDEO) values (222,'Ivan','Ivanovic',77.5);
+
+insert into CLAN_UPRAVE(IDCU,IDV,imeu,przu)VALUES(11,111,'Aljosa','Karmazov');
+insert into CLAN_UPRAVE(IDCU,IDV,imeu,przu)VALUES(22,222,'Ana','Ivanovna');
+insert into CLAN_UPRAVE(IDCU,IDV,imeu,przu)VALUES(33,111,'Fjodor','Pavlovic');
+
+insert into TRENER(IDCU,IDT,IMET,PRZT,ULGT)VALUES(22,2,'Aleksandar','Djordjevic','Pomocni trener');
+insert into TRENER(IDCU,IDT,IMET,PRZT,ULGT)VALUES(11,3,'Milos','Vukasinovic','Kondicioni trener');
+insert into TRENER(IDCU,IDT,IMET,PRZT,ULGT)VALUES(11,1,'Bosko','Obradovic','Glavni trener');
+
+insert into KOSARKAS(IDK,IMEK,POL,PRZK,ULGK)VALUES(1111,'Nemanja','muski','Bjelica','Centar');
+insert into KOSARKAS(IDK,IMEK,POL,PRZK,ULGK)VALUES(2222,'Bogdan','muski','Bogdanovic','Plejmejker');
+insert into KOSARKAS(IDK,IMEK,POL,PRZK,ULGK)VALUES(3333,'Nikola','muski','Jokic','Centar');
+insert into KOSARKAS(IDK,IMEK,POL,PRZK,ULGK)VALUES(4444,'Milos','muski','Teodosic','Plejmejker');
+insert into KOSARKAS(IDK,IMEK,POL,PRZK,ULGK)VALUES(5555,'Miroslav','muski','Raduljica','Centar');
+insert into KOSARKAS(IDK,IMEK,POL,PRZK,ULGK)VALUES(6666,'Nemanja','muski','Nedovic','Krilo');
+
+insert into TRENIRA(IDK,IDT,TRENIRA_ID)VALUES(1111,1,1);
+insert into TRENIRA(IDK,IDT,TRENIRA_ID)VALUES(2222,2,2);
+insert into TRENIRA(IDK,IDT,TRENIRA_ID)VALUES(3333,3,3);
+insert into TRENIRA(IDK,IDT,TRENIRA_ID)VALUES(4444,1,4);
+insert into TRENIRA(IDK,IDT,TRENIRA_ID)VALUES(5555,2,5);
+insert into TRENIRA(IDK,IDT,TRENIRA_ID)VALUES(6666,3,6);
+insert into TRENIRA(IDK,IDT,TRENIRA_ID)VALUES(2222,1,7);
+insert into TRENIRA(IDK,IDT,TRENIRA_ID)VALUES(3333,1,8);
+insert into TRENIRA(IDK,IDT,TRENIRA_ID)VALUES(5555,1,9);
+insert into TRENIRA(IDK,IDT,TRENIRA_ID)VALUES(6666,1,10);
+
+insert into TEREN(IDTER,BRT,NAZT,VRST)VALUES(1,1,'Hala pionir','Za utakmicu');
+insert into TEREN(IDTER,BRT,NAZT,VRST)VALUES(2,3,'Pomocni tereni','Za trening');
+
+insert into TRENING(IDTR,IDTER,POCTR,KRATR,TRENIRA_ID)VALUES(1,1,to_date('2021-01-25 08:00:00','YYYY-MM-DD HH:MI:SS'),to_date('2021-01-25 10:00:00','YYYY-MM-DD HH:MI:SS'),1);
+insert into TRENING(IDTR,IDTER,POCTR,KRATR,TRENIRA_ID)VALUES(2,2,to_date('2021-01-26 10:00:00','YYYY-MM-DD HH:MI:SS'),to_date('2021-01-26 11:00:00','YYYY-MM-DD HH:MI:SS'),2);
+insert into TRENING(IDTR,IDTER,POCTR,KRATR,TRENIRA_ID)VALUES(3,2,to_date('2021-01-27 08:00:00','YYYY-MM-DD HH:MI:SS'),to_date('2021-01-27 10:00:00','YYYY-MM-DD HH:MI:SS'),3);
+insert into TRENING(IDTR,IDTER,POCTR,KRATR,TRENIRA_ID)VALUES(4,2,to_date('2021-01-29 10:00:00','YYYY-MM-DD HH:MI:SS'),to_date('2021-01-29 11:00:00','YYYY-MM-DD HH:MI:SS'),4);
+insert into TRENING(IDTR,IDTER,POCTR,KRATR,TRENIRA_ID)VALUES(5,2,to_date('2021-01-30 11:00:00','YYYY-MM-DD HH:MI:SS'),to_date('2021-01-30 01:00:00','YYYY-MM-DD HH:MI:SS'),5);
+insert into TRENING(IDTR,IDTER,POCTR,KRATR,TRENIRA_ID)VALUES(6,1,to_date('2021-01-31 11:00:00','YYYY-MM-DD HH:MI:SS'),to_date('2021-01-31 01:00:00','YYYY-MM-DD HH:MI:SS'),6);
+
+insert into RADNIK(IDR,IDCU,imer,przr,ulgr) values(1,11,'Milica','Jovanovic','Cistacica');
+insert into RADNIK(IDR,IDCU,imer,przr,ulgr) values(2,22,'Marko','Medic','Domar');
+
+insert into ODRZAVA(IDR,IDTER) values(1,1);
+insert into ODRZAVA(IDR,IDTER) values(2,2);
+
+insert into UGOVOR(IDUG,IDK,IDCU,IDV,CLNR,ODU,DOU) values(1,1111,11,111,2000,to_date('27-JAN-21','DD-MON-RR'),to_date('27-JUN-21','DD-MON-RR'));
+insert into UGOVOR(IDUG,IDK,IDCU,IDV,CLNR,ODU,DOU) values(2,2222,11,222,2000,to_date('27-JAN-21','DD-MON-RR'),to_date('27-JUN-21','DD-MON-RR'));
+insert into UGOVOR(IDUG,IDK,IDCU,IDV,CLNR,ODU,DOU) values(3,5555,22,111,2000,to_date('27-JAN-21','DD-MON-RR'),to_date('27-JUN-21','DD-MON-RR'));
+insert into UGOVOR(IDUG,IDK,IDCU,IDV,CLNR,ODU,DOU) values(4,6666,33,222,2000,to_date('27-JAN-21','DD-MON-RR'),to_date('27-JUN-21','DD-MON-RR'));
+
+insert into ZA_IGRU(IDT,ISKUSTVO)values (1,12);
+insert into ZA_IGRU(IDT,ISKUSTVO)values (2,20);
+insert into KONDICIONI(IDT,ZVANJE)values (3,'Fizijatar');

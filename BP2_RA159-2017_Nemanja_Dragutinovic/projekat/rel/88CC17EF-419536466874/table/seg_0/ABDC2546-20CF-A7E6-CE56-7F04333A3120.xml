@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ABDC2546-20CF-A7E6-CE56-7F04333A3120" name="Kondicioni">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<generatorID>BD3568CE-BBD2-C337-45EF-0F77E83A3851</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Idt" id="2A7EAA90-F455-85F9-5F92-92701A9BD2E2">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<generatorID>1D3FFD61-BED0-120E-404B-058A2111C916</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="40304BCF-43CB-E76F-ED48-EDEACA141C97" referredColumn="D28F0984-5DE5-B234-9823-FB9BC8A088A3"/>
+</associations>
+</Column>
+<Column name="Zvanje" id="04144CD4-5969-23CF-3DB4-E027B5459A39">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<generatorID>910B2023-07ED-F586-1750-553C64899C79</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AA4AB23B-B7ED-6F42-B0FA-FEA9F167CF9D" name="Kondicioni_PK">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<generatorID>20DAC8F2-AC4A-E999-5475-BFB2B2E1EC8C</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A7EAA90-F455-85F9-5F92-92701A9BD2E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="130E48D8-F43F-A844-6ADA-D4618A405968" name="Kondicioni_Trener_FK">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<generatorID>8D5A5E26-674A-4650-EE5D-AD6C3814CF9D</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A7EAA90-F455-85F9-5F92-92701A9BD2E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

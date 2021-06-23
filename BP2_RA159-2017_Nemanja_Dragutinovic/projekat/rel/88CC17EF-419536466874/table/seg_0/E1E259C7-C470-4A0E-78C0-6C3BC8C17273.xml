@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E1E259C7-C470-4A0E-78C0-6C3BC8C17273" name="Odrzava">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Idr" id="022434B1-D741-8404-F0BC-BA1AB067B3B6">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="40D154F6-9832-68F7-89A9-89818D651ABD" referredColumn="B8D963BA-E18A-31D0-8CF3-5985EB3B467E"/>
+</associations>
+</Column>
+<Column name="Idter" id="8AEBA72D-C89E-DA07-23E5-1A1EE93E89D1">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AAB17190-FED4-E6F4-13D2-7742A53AB109" referredColumn="DD42A28E-0E97-B687-1EC7-E1409AE6662A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B34859AD-F553-F768-E246-DBD5C2342BB3" name="Odrzava_PK">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="022434B1-D741-8404-F0BC-BA1AB067B3B6"/>
+<colUsage columnID="8AEBA72D-C89E-DA07-23E5-1A1EE93E89D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="04D35F99-212E-E61E-AC78-8ACC4A21D779" name="Odrzava_Radnik_FK">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<generatorID>786863F5-93F0-8D8D-0D4E-E6F34653D2F0</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="022434B1-D741-8404-F0BC-BA1AB067B3B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FEE3759F-C98A-25F3-ABDF-BE866F4AC5D8" name="Odrzava_Teren_FK">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<generatorID>786863F5-93F0-8D8D-0D4E-E6F34653D2F0</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8AEBA72D-C89E-DA07-23E5-1A1EE93E89D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

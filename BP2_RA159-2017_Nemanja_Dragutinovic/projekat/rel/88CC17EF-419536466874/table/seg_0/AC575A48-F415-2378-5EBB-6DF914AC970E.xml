@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AC575A48-F415-2378-5EBB-6DF914AC970E" name="Trening">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<generatorID>93B75327-978B-9BB5-7F9C-4E7336F2EC41</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Idtr" id="DE89679E-1AAA-7B35-DE16-4DD9B6DB00DB">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<generatorID>4B913042-44FC-8DEE-1334-D23C4A2E38CF</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Poctr" id="8DF089B2-57C5-E183-C88A-428EB2A214BD">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<generatorID>726BBE3F-790B-F29C-81C7-57F1F0877F51</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kratr" id="51F7024B-BA57-FD30-E172-5B46DB38F9E9">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<generatorID>B2189972-3717-F358-A4F6-C66D900566D3</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Teren_Idter" id="2C08B36C-0D6B-0165-1AD5-CAA8E03FCABD">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<generatorID>76EA02AD-FE12-BED0-4BA4-2B5D247B982C</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5F22A066-D08F-0190-1FA7-5CE63B6AC8FC" referredColumn="DD42A28E-0E97-B687-1EC7-E1409AE6662A"/>
+</associations>
+</Column>
+<Column name="Trenira_ID" id="109CC946-A8CC-C064-30E3-058D458D2C6B">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5912850B-48D7-B12F-B621-82DBDF01F813" referredColumn="75A115A8-9397-0A7D-4A24-8DE28C5A9B28"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="104CD84F-ADB1-8BC2-201E-215F289BA635" name="Trening_PK">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<generatorID>C02D94D6-EDF2-CDFE-311C-7815607E2D01</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE89679E-1AAA-7B35-DE16-4DD9B6DB00DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E0684305-80AE-B820-CB9C-30CF03619BC2" name="Trening_Teren_FK">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<generatorID>3170A3D3-1EE7-5EBA-1B97-A6011C491D07</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C08B36C-0D6B-0165-1AD5-CAA8E03FCABD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E990E301-217D-0224-B9E6-DBA8F3BB3E55" name="Trening_Trenira_FK">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<generatorID>6EF7BB43-9A2B-D720-7A93-12DE8FAEEC1A</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="109CC946-A8CC-C064-30E3-058D458D2C6B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

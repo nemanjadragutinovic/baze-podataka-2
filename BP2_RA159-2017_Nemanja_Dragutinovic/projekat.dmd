@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="projekat" id="EC52BE7E-0280-D360-BE3B-F3F9414F2543" version="3.5">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 10:48:35 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>EC52BE7E-0280-D360-BE3B-F3F9414F2543</designId>
+</OSDM_Design>

@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4BB995C0-2EDF-657E-73F1-EDB0B2299278" name="Trenira">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 12:20:42 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<engineerTo>
+<item key="88CC17EF-7E06-E413-6562-419536466874" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Idk" id="A40BF13B-C8AD-DA2B-D784-7B0E7993EF6A">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 12:23:02 UTC</createdTime>
+<generatorID>39B53DD4-A917-1086-288C-76B3B896C2E9</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<engineerTo>
+<item key="88CC17EF-7E06-E413-6562-419536466874" value="true"/>
+</engineerTo>
+<referedAttribute>9D425B4A-051C-5641-1062-888522607F49</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Idt" id="A104306E-88C2-62CF-75DB-B66A60B0D555">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 12:26:44 UTC</createdTime>
+<generatorID>EE53B1AB-7F34-7037-8562-7EDE1B7C54E7</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<engineerTo>
+<item key="88CC17EF-7E06-E413-6562-419536466874" value="true"/>
+</engineerTo>
+<referedAttribute>1D3FFD61-BED0-120E-404B-058A2111C916</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

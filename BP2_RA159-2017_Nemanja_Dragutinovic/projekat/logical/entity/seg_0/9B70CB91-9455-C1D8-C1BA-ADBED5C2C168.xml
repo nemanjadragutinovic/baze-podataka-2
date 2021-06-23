@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9B70CB91-9455-C1D8-C1BA-ADBED5C2C168" name="Ugovor">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 12:27:47 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<engineerTo>
+<item key="88CC17EF-7E06-E413-6562-419536466874" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Idug" id="996434CA-6D72-8DE7-8A5F-036ACB7DF315">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 12:27:57 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<engineerTo>
+<item key="88CC17EF-7E06-E413-6562-419536466874" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Clnr" id="C885E861-82B5-B3FA-F27D-95334C10CF8A">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 12:28:09 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<engineerTo>
+<item key="88CC17EF-7E06-E413-6562-419536466874" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Odu" id="DF54C13C-BBCF-5932-83B8-CD8386BF2EFE">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 12:30:49 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<engineerTo>
+<item key="88CC17EF-7E06-E413-6562-419536466874" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dou" id="CC98CD1C-F47A-98F0-362D-9124646EED3F">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 12:31:15 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<engineerTo>
+<item key="88CC17EF-7E06-E413-6562-419536466874" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Idcu" id="F30D8978-626E-2D27-8D18-7EA57639FB29">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 12:32:12 UTC</createdTime>
+<generatorID>4ED0D5FB-5BDB-863D-B681-6EFC7395CA75</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<engineerTo>
+<item key="88CC17EF-7E06-E413-6562-419536466874" value="true"/>
+</engineerTo>
+<referedAttribute>E5C8064B-9AF1-0314-AB24-9074E784DD5E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Idk" id="49EAE258-F9AF-428F-5263-348B2E3C99C9">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 12:33:43 UTC</createdTime>
+<generatorID>6986CB03-8915-B327-B4C4-F7E773BFF507</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<engineerTo>
+<item key="88CC17EF-7E06-E413-6562-419536466874" value="true"/>
+</engineerTo>
+<referedAttribute>9D425B4A-051C-5641-1062-888522607F49</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Idv" id="F84394F0-D4BB-7639-A2C1-09E74764C49A">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 12:34:39 UTC</createdTime>
+<generatorID>02FD4987-68BB-2DD2-CA44-11BE4EF81A1B</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<engineerTo>
+<item key="88CC17EF-7E06-E413-6562-419536466874" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>B39E373B-DD9D-4D83-137E-D3D61C3D3D9A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5803C8D5-EA87-2486-BB97-203E180227D0" name="Ugovor PK">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 12:28:07 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<engineerTo>
+<item key="88CC17EF-7E06-E413-6562-419536466874" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>996434CA-6D72-8DE7-8A5F-036ACB7DF315</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

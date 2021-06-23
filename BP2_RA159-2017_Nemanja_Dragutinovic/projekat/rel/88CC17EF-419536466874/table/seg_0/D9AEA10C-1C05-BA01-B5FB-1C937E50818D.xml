@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D9AEA10C-1C05-BA01-B5FB-1C937E50818D" name="Sparing">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Idk" id="F0F46B78-16C2-C312-04CE-0BA809AB2605">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D135B771-AF37-796B-58D4-FBA0C4A9FE4F" referredColumn="637F1768-8FC1-53C1-4962-09CEF6241D50"/>
+</associations>
+</Column>
+<Column name="Idk1" id="7FDC2DB8-5376-6413-F15B-5B7FE90C4F8A">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ADF2874F-7DF2-B007-F366-14DB526465FA" referredColumn="637F1768-8FC1-53C1-4962-09CEF6241D50"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A8BEEADE-5D46-C619-1D6B-B4F5D8DC7EBD" name="Sparing_PK">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0F46B78-16C2-C312-04CE-0BA809AB2605"/>
+<colUsage columnID="7FDC2DB8-5376-6413-F15B-5B7FE90C4F8A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A1B5D8F6-879E-881E-552A-2B43B0D51832" name="Sparing_Kosarkas_FK">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<generatorID>403BCDD9-8403-598C-BD1D-90AD39A9FDFA</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0F46B78-16C2-C312-04CE-0BA809AB2605"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="40D6583B-AC24-9CB1-2292-9091F481C9EC" name="Sparing_Kosarkas_FKv1">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<generatorID>403BCDD9-8403-598C-BD1D-90AD39A9FDFA</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7FDC2DB8-5376-6413-F15B-5B7FE90C4F8A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

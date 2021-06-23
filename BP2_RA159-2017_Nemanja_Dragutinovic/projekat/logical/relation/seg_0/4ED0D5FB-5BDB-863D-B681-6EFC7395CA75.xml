@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Sacinjava" directorySegmentName="seg_0" id="4ED0D5FB-5BDB-863D-B681-6EFC7395CA75">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 12:31:49 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<engineerTo>
+<item key="88CC17EF-7E06-E413-6562-419536466874" value="true"/>
+</engineerTo>
+<sourcePk>BA680A6E-1D0B-382F-A635-DB32D50148EF</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B93ED10C-4D7E-A11A-DD41-1F3402233814</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9B70CB91-9455-C1D8-C1BA-ADBED5C2C168</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

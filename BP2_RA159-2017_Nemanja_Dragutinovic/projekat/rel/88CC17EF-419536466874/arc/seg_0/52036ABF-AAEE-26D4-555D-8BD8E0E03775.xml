@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="52036ABF-AAEE-26D4-555D-8BD8E0E03775" name="FKArc_1">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>2BA00027-F6BB-7DEA-7D85-089CC9413ADF</table>
+<discriminatorColumn>D28F0984-5DE5-B234-9823-FB9BC8A088A3</discriminatorColumn>
+<fkeys>
+<fkeyID>F85EB771-574A-0EFF-E220-EB7E6DB18926</fkeyID>
+<fkeyID>40304BCF-43CB-E76F-ED48-EDEACA141C97</fkeyID>
+</fkeys>
+</FKArc>

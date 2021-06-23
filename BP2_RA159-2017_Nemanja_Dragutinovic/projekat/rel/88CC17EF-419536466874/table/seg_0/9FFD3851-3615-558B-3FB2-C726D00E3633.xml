@@ -1,0 +1,149 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9FFD3851-3615-558B-3FB2-C726D00E3633" name="Ugovor">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<generatorID>9B70CB91-9455-C1D8-C1BA-ADBED5C2C168</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Idug" id="F027025B-E47F-647B-0920-E71186B75DD3">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<generatorID>996434CA-6D72-8DE7-8A5F-036ACB7DF315</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Clnr" id="4C2C5F54-F03E-4C0C-CCC1-BCA8234EBB8C">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<generatorID>C885E861-82B5-B3FA-F27D-95334C10CF8A</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Odu" id="1B38FF98-4288-6265-25B4-AD84F982A5C5">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<generatorID>DF54C13C-BBCF-5932-83B8-CD8386BF2EFE</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dou" id="E3D545D2-9C60-22FE-7995-F07C120B2D14">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<generatorID>CC98CD1C-F47A-98F0-362D-9124646EED3F</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Clan_uprave_Idcu" id="59C98C40-A293-3ADD-B91F-CCDC6D0CD963">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<generatorID>F30D8978-626E-2D27-8D18-7EA57639FB29</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D62AC430-49A4-56AC-2CE6-0E9A2833C123" referredColumn="31F0CB43-EE7E-8C32-C152-1926E50B548D"/>
+</associations>
+</Column>
+<Column name="Kosarkas_Idk" id="53B3F23B-CD1E-B6FD-20E6-32FA616164F4">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<generatorID>49EAE258-F9AF-428F-5263-348B2E3C99C9</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="16733730-972E-F617-3261-0EED1A90F10C" referredColumn="637F1768-8FC1-53C1-4962-09CEF6241D50"/>
+</associations>
+</Column>
+<Column name="Vlasnik_Idv" id="068097EB-8C44-5D27-A59F-5A8DF10D2F7B">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<generatorID>F84394F0-D4BB-7639-A2C1-09E74764C49A</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C3163D12-6B9F-0748-85D5-0A53621F54B2" referredColumn="4EAA7FDB-13E3-CC86-E9E7-D0133F87E5C8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="24AC17E8-C7A6-59D6-CAB4-6305E1BC6EFA" name="Ugovor_PK">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<generatorID>5803C8D5-EA87-2486-BB97-203E180227D0</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F027025B-E47F-647B-0920-E71186B75DD3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3B6668E4-C9CD-1DC7-D2CF-1657DEBB2ABB" name="Ugovor_Vlasnik_FK">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<generatorID>02FD4987-68BB-2DD2-CA44-11BE4EF81A1B</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="068097EB-8C44-5D27-A59F-5A8DF10D2F7B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E3E9CA4A-4743-ACA7-CE50-A0E9B6A26AD7" name="Ugovor_Kosarkas_FK">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<generatorID>6986CB03-8915-B327-B4C4-F7E773BFF507</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53B3F23B-CD1E-B6FD-20E6-32FA616164F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="00B58DCD-FC70-123A-7F8B-15BEAED2DCED" name="Ugovor_Clan_uprave_FK">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<generatorID>4ED0D5FB-5BDB-863D-B681-6EFC7395CA75</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59C98C40-A293-3ADD-B91F-CCDC6D0CD963"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

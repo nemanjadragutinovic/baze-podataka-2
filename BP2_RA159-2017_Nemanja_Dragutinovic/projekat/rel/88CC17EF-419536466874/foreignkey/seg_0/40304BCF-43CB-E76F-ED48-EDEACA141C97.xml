@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="40304BCF-43CB-E76F-ED48-EDEACA141C97" containerWithKeyObject="ABDC2546-20CF-A7E6-CE56-7F04333A3120" localFKIndex="130E48D8-F43F-A844-6ADA-D4618A405968" name="Kondicioni_Trener_FK">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<generatorID>8D5A5E26-674A-4650-EE5D-AD6C3814CF9D</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<referredTableLongName>Trener</referredTableLongName>
+<arc>52036ABF-AAEE-26D4-555D-8BD8E0E03775</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2BA00027-F6BB-7DEA-7D85-089CC9413ADF</referredTableID>
+<keyObject>30D61290-19A2-8B32-F5D0-644D6B2CD955</keyObject>
+<referredKeyID>30D61290-19A2-8B32-F5D0-644D6B2CD955</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Idt</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>kondicioni</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

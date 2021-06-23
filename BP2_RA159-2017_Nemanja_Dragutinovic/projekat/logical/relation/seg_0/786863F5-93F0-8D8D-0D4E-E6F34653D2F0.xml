@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Odrzava" directorySegmentName="seg_0" id="786863F5-93F0-8D8D-0D4E-E6F34653D2F0">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 12:57:40 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<engineerTo>
+<item key="88CC17EF-7E06-E413-6562-419536466874" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>0880077B-0C30-2DA7-A58A-F243DED1A76D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A79F806D-F94F-D065-6585-26E0D4DBC882</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

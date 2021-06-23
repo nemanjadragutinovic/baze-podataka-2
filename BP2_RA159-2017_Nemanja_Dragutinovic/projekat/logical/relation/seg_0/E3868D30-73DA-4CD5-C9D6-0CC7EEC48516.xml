@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Angazuje" directorySegmentName="seg_0" id="E3868D30-73DA-4CD5-C9D6-0CC7EEC48516">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 12:56:51 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<engineerTo>
+<item key="88CC17EF-7E06-E413-6562-419536466874" value="true"/>
+</engineerTo>
+<sourcePk>BA680A6E-1D0B-382F-A635-DB32D50148EF</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B93ED10C-4D7E-A11A-DD41-1F3402233814</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0880077B-0C30-2DA7-A58A-F243DED1A76D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

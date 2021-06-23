@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F129DDAB-4BA3-96A7-6BE0-3B3D851BF3EE" name="Za_igru">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<generatorID>D1559775-54C1-7D15-B5A9-63E906236BFF</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Idt" id="D163C213-2A16-F6A9-4182-342508C8EB46">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<generatorID>1D3FFD61-BED0-120E-404B-058A2111C916</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F85EB771-574A-0EFF-E220-EB7E6DB18926" referredColumn="D28F0984-5DE5-B234-9823-FB9BC8A088A3"/>
+</associations>
+</Column>
+<Column name="Iskustvo" id="0B1CEDF6-FF81-BE9F-1F9C-293FAEE6602D">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<generatorID>AC78742C-8BA0-9111-11F8-32318240084A</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AA960B31-65F6-0020-A821-4E069D4ECEA3" name="Za_igru_PK">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<generatorID>20DAC8F2-AC4A-E999-5475-BFB2B2E1EC8C</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D163C213-2A16-F6A9-4182-342508C8EB46"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FF0C71C5-1678-F144-CD05-7983402DCDF7" name="Za_igru_Trener_FK">
+<createdBy>neman</createdBy>
+<createdTime>2021-01-16 13:44:22 UTC</createdTime>
+<generatorID>6DC25EC3-979E-CC6A-BC49-4DB8BAB950ED</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D163C213-2A16-F6A9-4182-342508C8EB46"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
